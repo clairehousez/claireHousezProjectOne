@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <div class="blogWrapper">
+                <form action="sendEmail.php" method="Post" class="sendEmail" name="sendEmail">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email address</label>
+                    <input type="email" id="email" name="name">
+
+                    <label for="message">Message</label>
+                    <input type="text" id="message" name="message">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <aside>
+            <div class="wrapper">
+                <div class="socialLinks">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Snapchat</a>
+                    <a href="#">Telephone</a>
+                </div>
+                
+                <h3><a href="#">Info@email.com</a></h3>
+
+                <p>123 - 456 - 7890</p>
+                <p>123 Queen Street West, Unit 10</p>
+                <p>Toronto, Ontario</p>
+                <p>M5V 2D5</p>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Copyright 2021 Juno College</p>
+    </footer>
+</body>
+</html>
