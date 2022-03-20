@@ -234,3 +234,105 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 125%;
+}
+
+body {
+  font-size: 1rem;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+button {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-image: url(../assets/header-image.jpg);
+  background-size: cover;
+  height: 600px;
+  background-color: #0C1423;
+}
+
+h1 {
+  font-size: 138px;
+  line-height: 126px;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+nav {
+  font-size: 20px;
+  text-align: center;
+  line-height: 29px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+ul a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+}
+ul a:hover, ul a:focus {
+  color: #86E0F9;
+}
+
+.aboutSection {
+  background-color: #0C1423;
+}
+
+.additions {
+  background-color: #0F614E;
+}
+
+.nemo {
+  background-color: #0F614E;
+}
+
+.moreInfo {
+  background-color: #0C1423;
+}
+
+.whaleShark {
+  background-image: url(../assets/banner.jpg);
+  height: 400px;
+  background-size: cover;
+}
+
+.profile {
+  background-color: #0C1423;
+}
+
+.gallery {
+  background-color: #0F614E;
+}
