@@ -1,16 +1,70 @@
 .aboutSection {
+    display: flex;
     background-color: $dark;
+    height: 600px;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    h3 {
+        text-align: center;
+    }
+    a {
+        display: inline-block;
+        background-color: $blue;
+        color: $dark;
+        width: 22%;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 40%;
+        margin-top: 10px;
+    }
 }
 
 .additions {
+    display: flex;
+    position: relative;
     background-color: $spruce;
+    height: 700px;
+    margin-top: 0;
+}
+
+.newAdditionsText {
+    width: 50%;
+    margin-left: 600px;
+}
+
+.fishImgContainer {
+    img {
+        position: absolute;
+        top: -40px;
+        width: 500px;
+        height: auto;
+        box-shadow: 25px 25px $blue;
+    }
 }
 
 .nemo {
     background-color: $spruce;
+    width: 50%;
+    text-align: right;
+    padding-top: 50px;
+}
+
+.nemoContainer {
+    img {
+        position: absolute;
+        width: 500px;
+        height: auto;
+        box-shadow: $blue;
+        top: 420px;
+        right: 0px;
+        box-shadow: -25px 25px $blue;
+    }
 }
 
 .moreInfo {
+    display: flex;
     background-color: $dark;
 }
 

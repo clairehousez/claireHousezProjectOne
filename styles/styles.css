@@ -252,11 +252,47 @@ nav,
 button {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 80px;
+  line-height: 92px;
+}
+
+h3 {
+  font-size: 42px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 32px;
+  letter-spacing: 1px;
 }
 
 p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+a {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+button {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 1px;
 }
 
 .wrapper {
@@ -268,8 +304,11 @@ p {
 header {
   background-image: url(../assets/header-image.jpg);
   background-size: cover;
-  height: 600px;
+  height: 700px;
   background-color: #0C1423;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 h1 {
@@ -308,18 +347,83 @@ ul a:hover, ul a:focus {
 }
 
 .aboutSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #0C1423;
+  height: 600px;
+  margin-top: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.aboutSection h3 {
+  text-align: center;
+}
+.aboutSection a {
+  display: inline-block;
+  background-color: #86E0F9;
+  color: #0C1423;
+  width: 22%;
+  padding: 10px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 40%;
+  margin-top: 10px;
 }
 
 .additions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
   background-color: #0F614E;
+  height: 700px;
+  margin-top: 0;
+}
+
+.newAdditionsText {
+  width: 50%;
+  margin-left: 600px;
+}
+
+.fishImgContainer img {
+  position: absolute;
+  top: -40px;
+  width: 500px;
+  height: auto;
+  -webkit-box-shadow: 25px 25px #86E0F9;
+          box-shadow: 25px 25px #86E0F9;
 }
 
 .nemo {
   background-color: #0F614E;
+  width: 50%;
+  text-align: right;
+  padding-top: 50px;
+}
+
+.nemoContainer img {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  -webkit-box-shadow: #86E0F9;
+          box-shadow: #86E0F9;
+  top: 420px;
+  right: 0px;
+  -webkit-box-shadow: -25px 25px #86E0F9;
+          box-shadow: -25px 25px #86E0F9;
 }
 
 .moreInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #0C1423;
 }
 
