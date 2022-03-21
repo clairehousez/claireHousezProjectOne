@@ -1,0 +1,41 @@
+form {
+    background-color: $spruce;
+    height: 500px;
+    box-shadow: -30px 30px $blue;
+}
+
+label {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+}
+
+input {
+    background-color: $spruce;
+    border: none;
+    border-bottom: 1px solid $blue;
+}
+
+button {
+    background-color: $dark;
+    color: $text;
+    width: 60%;
+    padding: 10px;
+    border: none;
+}
+
+a {
+    color: white;
+}
+
+.divide {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}

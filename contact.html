@@ -12,17 +12,41 @@
 </head>
 <body>
     <header>
-        <nav>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/index.html#about">About</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-            <li><a href="/contact.html">Contact</a></li>
-        </nav>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index.html#about">About</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section id="contact">
-            <div class="blogWrapper">
+        <div class="divide">
+
+            <aside>
+                <div class="wrapper">
+                    <div class="socialLinks">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Snapchat</a>
+                        <a href="#">Telephone</a>
+                    </div>
+                    
+                    <h3><a href="#">Info@email.com</a></h3>
+    
+                    <p>123 - 456 - 7890</p>
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V 2D5</p>
+                </div>
+            </aside>
+            
+        <section class="contact">
+            <div class="wrapper">
                 <form action="sendEmail.php" method="Post" class="sendEmail" name="sendEmail">
 
                     <label for="name">Name</label>
@@ -39,24 +63,8 @@
             </div>
         </section>
 
-        <aside>
-            <div class="wrapper">
-                <div class="socialLinks">
-                    <a href="#">Facebook</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Snapchat</a>
-                    <a href="#">Telephone</a>
-                </div>
-                
-                <h3><a href="#">Info@email.com</a></h3>
-
-                <p>123 - 456 - 7890</p>
-                <p>123 Queen Street West, Unit 10</p>
-                <p>Toronto, Ontario</p>
-                <p>M5V 2D5</p>
-            </div>
-        </aside>
-
+        
+        </div>
     </main>
 
     <footer>

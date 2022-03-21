@@ -12,78 +12,80 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/index.html#about">About</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/index.html#about">About</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
-        <section class="Blog">
+        <div class="blogContainer">
+            <aside class="aboutAside">
+                <img src="assets/side-blog-image.jpg" alt="Patreons look at a whale and fishes">
+                <h4>About Under The Sea</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil, neque provident. Find out more.</p>
+    
+                <h4>Recent Posts</h4>
+                <ul>
+                    <li><a href="#">Donec facilisis tortor ut</a></li>
+                    <li><a href="#">Augue lacinia at viverra</a></li>
+                    <li><a href="#">Semper sed sapien metus</a></li>
+                    <li><a href="#">Scelerisque nec pharetra id</a></li>
+                </ul>
+            </aside>
+
             <div class="blogWrapper">
-                <h1>Blog</h1>
+                <section class="blog">
+                    <h2>Blog</h2>
                 
-                <img>
+                    <img src="assets/blog-post-image.jpg" alt="Clown and Angel fishes swimming">
                 
-                <h2>Discovering New Species</h2>
+                    <h3>Discovering New Species</h3>
                 
-                <p>Monday May 4th, 2019 by Dieula</p>
+                    <p>Monday May 4th, 2019 by Dieula</p>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsum in nam obcaecati inventore consectetur dolores. Dolores iste excepturi voluptatibus pariatur cupiditate modi a. Accusamus, pariatur consequatur dignissimos ex quam laborum voluptatem accusantium quis recusandae ratione earum rerum maiores quo nobis, illum harum minima in impedit vero ad magni? Laborum eaque nesciunt dignissimos accusantium, ratione rem totam placeat, nulla magnam cum perspiciatis consequatur quaerat temporibus cumque aspernatur enim, commodi eos. Quas magni harum dolorem, eum, excepturi quo, quae optio rerum ipsa maiores ad corporis eius dicta! Labore esse nobis, adipisci recusandae placeat provident doloremque odit repellat nulla vitae ea nam reprehenderit doloribus minima illum harum saepe ipsam deserunt totam eos iste distinctio blanditiis deleniti sequi. Inventore at dolorum nobis eos? Ex quo neque dignissimos enim dicta laborum pariatur. Vitae voluptates, unde nostrum exercitationem numquam dolorem porro reiciendis sunt! Possimus tempora inventore consequatur eius incidunt maiores ex, labore vitae obcaecati numquam nobis eaque autem quo consectetur beatae eveniet porro pariatur debitis explicabo. Repellat iste, ut ipsum impedit ad cum. Esse tempore, eveniet magnam harum quaerat labore consectetur quod nemo aperiam nostrum nesciunt facere mollitia omnis quasi rem quidem libero praesentium. Nobis alias veniam aliquid in error ea, exercitationem ab quisquam reprehenderit?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsum in nam obcaecati inventore consectetur dolores. Dolores iste excepturi voluptatibus pariatur cupiditate modi a. Accusamus, pariatur consequatur dignissimos ex quam laborum voluptatem accusantium quis recusandae ratione earum rerum maiores quo nobis, illum harum minima in impedit vero ad magni? Laborum eaque nesciunt dignissimos accusantium, ratione rem totam placeat, nulla magnam cum perspiciatis consequatur quaerat temporibus cumque aspernatur enim, commodi eos. Quas magni harum dolorem, eum, excepturi quo, quae optio rerum ipsa maiores ad corporis eius dicta! Labore esse nobis, adipisci recusandae placeat provident doloremque odit repellat nulla vitae ea nam reprehenderit doloribus minima illum harum saepe ipsam deserunt totam eos iste distinctio blanditiis deleniti sequi. Inventore at dolorum nobis eos? Ex quo neque dignissimos enim dicta laborum pariatur. Vitae voluptates, unde nostrum exercitationem numquam dolorem porro reiciendis sunt! Possimus tempora inventore consequatur eius incidunt maiores ex, labore vitae obcaecati numquam nobis eaque autem quo consectetur beatae eveniet porro pariatur debitis explicabo. Repellat iste, ut ipsum impedit ad cum. Esse tempore, eveniet magnam harum quaerat labore consectetur quod nemo aperiam nostrum nesciunt facere mollitia omnis quasi rem quidem libero praesentium. Nobis alias veniam aliquid in error ea, exercitationem ab quisquam reprehenderit?</p>
+                </section>
+            
+
+                <section class="comments">
+                    <h4>Comments:</h4>
+
+                    <div class="commentOne">
+                        <img src="assets/comment-1.jpg" alt="display photo of commenter">
+                        <p>Tuesday October 9th, 2018 by Jeremy</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quae velit quasi possimus enim est, accusantium saepe molestias doloremque earum, laboriosam ea esse pariatur voluptatum quod. Libero molestiae, cum iusto obcaecati tempora autem nihil, corporis, magnam aut natus asperiores perspiciatis alias quasi quidem ab eos!</p>
+                    </div>
+
+                    <div class="commentTwo">
+                        <img src="assets/comment-2.jpg" alt="display photo of commenter">
+                        <p>Wednesday October 10th, 2018 by Julia</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci corrupti deleniti rerum velit labore, a incidunt, ratione, architecto dignissimos enim facere eum quidem earum. Explicabo!</p>
+                    </div>
+
+                    <div class="commentDiv">
+                        <form action="" method="post" class="commentForm" name="commentForm">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+
+                            <label for="email">Email address</label>
+                            <input type="email" id="email" name="email">
+
+                            <label for="comment">Comment</label>
+                            <input type="text" id="comment" name="comment">
+
+                            <button type="submit">Post Comment</button>
+                        </form>
+                    </div>
+                </section>
             </div>
-        </section>
-
-        <section class="comments">
-            <div class="blogWrapper">
-                <h3>Comments:</h3>
-
-                <div class="commentOne">
-                    <img>
-                    <p>Tuesday October 9th, 2018 by Jeremy</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et quae velit quasi possimus enim est, accusantium saepe molestias doloremque earum, laboriosam ea esse pariatur voluptatum quod. Libero molestiae, cum iusto obcaecati tempora autem nihil, corporis, magnam aut natus asperiores perspiciatis alias quasi quidem ab eos!</p>
-                </div>
-
-                <div class="commentTwo">
-                    <img>
-                    <p>Wednesday October 10th, 2018 by Julia</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci corrupti deleniti rerum velit labore, a incidunt, ratione, architecto dignissimos enim facere eum quidem earum. Explicabo!</p>
-                </div>
-
-                <div class="commentDiv">
-                    <form action="" method="post" class="commentForm" name="commentForm">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name">
-
-                        <label for="email">Email address</label>
-                        <input type="email" id="email" name="email">
-
-                        <label for="comment">Comment</label>
-                        <input type="text" id="comment" name="comment">
-
-                        <button type="submit">Post Comment</button>
-                    </form>
-                </div>
-
-            </div>
-        </section>
-
-        <aside id="aboutAside">
-            <img>
-            <h4>About Under The Sea</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil, neque provident. Find out more.</p>
-
-            <h4>Recent Posts</h4>
-            <ul>
-                <li><a href="#">Donec facilisis tortor ut</a></li>
-                <li><a href="#">Augue lacinia at viverra</a></li>
-                <li><a href="#">Semper sed sapien metus</a></li>
-                <li><a href="#">Scelerisque nec pharetra id</a></li>
-            </ul>
-        </aside>
+        </div>
     </main>
 
     <footer>

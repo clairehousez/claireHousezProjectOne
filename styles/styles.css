@@ -346,6 +346,22 @@ ul a:hover, ul a:focus {
   color: #86E0F9;
 }
 
+header {
+  background-image: url(../assets/header-image.jpg);
+  background-size: cover;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+h1 {
+  font-size: 138px;
+  line-height: 126px;
+  text-transform: uppercase;
+  width: 40%;
+}
+
 .headerFish {
   position: relative;
 }
@@ -413,7 +429,7 @@ ul a:hover, ul a:focus {
 
 .newAdditionsText {
   width: 50%;
-  margin-left: 650px;
+  margin-left: auto;
 }
 
 .fishImgContainer img {
@@ -541,6 +557,92 @@ ul a:hover, ul a:focus {
 }
 .gallery img {
   max-width: 100%;
+}
+
+body {
+  background-color: #0C1423;
+}
+
+.blogHeader {
+  background-color: pink;
+}
+
+.blogContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.aboutAside {
+  width: 30%;
+}
+.aboutAside p {
+  font-size: 20px;
+}
+
+.blogWrapper {
+  width: 70%;
+}
+
+.aboutAside img {
+  width: 400px;
+  height: auto;
+  -webkit-box-shadow: 10px 30px #0F614E;
+          box-shadow: 10px 30px #0F614E;
+}
+
+.blog img {
+  width: 600px;
+  height: auto;
+  margin-left: 300px;
+}
+
+form {
+  background-color: #0F614E;
+  height: 500px;
+  -webkit-box-shadow: -30px 30px #86E0F9;
+          box-shadow: -30px 30px #86E0F9;
+}
+
+label {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+}
+
+input {
+  background-color: #0F614E;
+  border: none;
+  border-bottom: 1px solid #86E0F9;
+}
+
+button {
+  background-color: #0C1423;
+  color: #fff;
+  width: 60%;
+  padding: 10px;
+  border: none;
+}
+
+a {
+  color: white;
+}
+
+.divide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact {
+  width: 70%;
+}
+
+aside {
+  width: 30%;
 }
 
 footer {
