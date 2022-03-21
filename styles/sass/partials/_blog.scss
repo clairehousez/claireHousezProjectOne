@@ -2,6 +2,12 @@ body {
     background-color: $dark;
 }
 
+.blogPageWrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 .blogHeaderBackground {
     background-image: url(../assets/blog-header.jpg);
     background-size: fixed;
@@ -16,18 +22,31 @@ body {
 }
 
 .aboutAside {
+    position: relative;
     width: 30%;
     p {
         font-size: 20px;
     }
+    ul {
+        flex-direction: column;
+    }
+}
+
+.asideText {
+    width: 300px;
 }
 
 .blogWrapper {
-    width: 70%;
+    max-width: calc(100% - 30%);
+    width: 80%;
+    margin: 0 auto;
 
 }
 
 .aboutAside img {
+    position: absolute;
+    left: -20px;
+    top: -20px;
     width: 300px;
     height: auto;
     box-shadow: 10px 30px $spruce;
@@ -65,6 +84,10 @@ body {
 .messageButton {
     display: flex;    
     flex-direction: column;
+    input {
+        border: 1px solid $blue;
+        height: 200px;
+    }
     button {
         background-color: $spruce;
         color: $text;

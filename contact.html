@@ -8,19 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@700&family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/af4482c1be.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <div class="wrapper">
-            <nav>
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/index.html#about">About</a></li>
-                    <li><a href="/blog.html">Blog</a></li>
-                    <li><a href="/contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <div class="contactPageBackground">
+            <div class="wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html#about">About</a></li>
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -30,10 +33,10 @@
             <aside>
                 <div class="wrapper">
                     <div class="socialLinks">
-                        <a href="#">Facebook</a>
-                        <a href="#">Instagram</a>
-                        <a href="#">Snapchat</a>
-                        <a href="#">Telephone</a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-solid fa-phone"></i></a>
                     </div>
                     
                     <h3><a href="#">Info@email.com</a></h3>
@@ -44,25 +47,25 @@
                     <p>M5V 2D5</p>
                 </div>
             </aside>
-            
-        <section class="contact">
-            <div class="wrapper">
-                <form action="sendEmail.php" method="Post" class="sendEmail" name="sendEmail">
 
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+            <section class="contact">
+                <div class="getInTouch">
+                    <h2>Get In Touch</h2>
+                    <form action="sendEmail.php" method="Post" class="sendEmail" name="sendEmail">
 
-                    <label for="email">Email address</label>
-                    <input type="email" id="email" name="name">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
 
-                    <label for="message">Message</label>
-                    <input type="text" id="message" name="message">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="name">
 
-                    <button type="submit">Submit</button>
-                </form>
-            </div>
-        </section>
+                        <label for="message">Message</label>
+                        <input type="text" id="message" name="message">
 
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
         
         </div>
     </main>

@@ -1,3 +1,11 @@
+.contactPageBackground {
+    background-image: url(../assets/contact-header.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+
 .sendEmail {
     background-color: $spruce;
     height: 500px;
@@ -31,10 +39,21 @@ a {
     flex-wrap: wrap;
 }
 
-.contact {
-    width: 70%;
-}
-
 aside {
     width: 30%;
+}
+
+.socialLinks {
+    color: $text;
+}
+
+.contact {
+    position: relative;
+    width: 60%;
+}
+
+.getInTouch {
+    position: absolute;
+    top: -400px;
+    left: 100px;
 }

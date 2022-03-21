@@ -558,6 +558,12 @@ body {
   background-color: #0C1423;
 }
 
+.blogPageWrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .blogHeaderBackground {
   background-image: url(../assets/blog-header.jpg);
   background-size: fixed;
@@ -574,17 +580,33 @@ body {
 }
 
 .aboutAside {
+  position: relative;
   width: 30%;
 }
 .aboutAside p {
   font-size: 20px;
 }
+.aboutAside ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.asideText {
+  width: 300px;
+}
 
 .blogWrapper {
-  width: 70%;
+  max-width: 70%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .aboutAside img {
+  position: absolute;
+  left: -20px;
+  top: -20px;
   width: 300px;
   height: auto;
   -webkit-box-shadow: 10px 30px #0F614E;
@@ -629,6 +651,10 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.messageButton input {
+  border: 1px solid #86E0F9;
+  height: 200px;
+}
 .messageButton button {
   background-color: #0F614E;
   color: #fff;
@@ -636,6 +662,13 @@ body {
 }
 .messageButton button:hover, .messageButton button:focus {
   background-color: #137c64;
+}
+
+.contactPageBackground {
+  background-image: url(../assets/contact-header.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
 }
 
 .sendEmail {
@@ -673,12 +706,23 @@ a {
       flex-wrap: wrap;
 }
 
-.contact {
-  width: 70%;
-}
-
 aside {
   width: 30%;
+}
+
+.socialLinks {
+  color: #fff;
+}
+
+.contact {
+  position: relative;
+  width: 60%;
+}
+
+.getInTouch {
+  position: absolute;
+  top: -400px;
+  left: 100px;
 }
 
 footer {
