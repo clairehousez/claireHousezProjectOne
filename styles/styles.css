@@ -262,7 +262,6 @@ h2 {
 
 h3 {
   font-size: 42px;
-  text-align: center;
   letter-spacing: 1px;
 }
 
@@ -305,7 +304,6 @@ header {
   background-image: url(../assets/header-image.jpg);
   background-size: cover;
   height: 700px;
-  background-color: #0C1423;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -315,7 +313,7 @@ h1 {
   font-size: 138px;
   line-height: 126px;
   text-transform: uppercase;
-  width: 50%;
+  width: 40%;
 }
 
 nav {
@@ -334,6 +332,8 @@ ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 ul a {
@@ -344,6 +344,17 @@ ul a {
 }
 ul a:hover, ul a:focus {
   color: #86E0F9;
+}
+
+.headerFish {
+  position: relative;
+}
+.headerFish img {
+  position: absolute;
+  top: 170px;
+  right: 0px;
+  width: 750px;
+  height: auto;
 }
 
 .aboutSection {
@@ -376,6 +387,9 @@ ul a:hover, ul a:focus {
   margin-left: 40%;
   margin-top: 10px;
 }
+.aboutSection a:hover, .aboutSection a:focus {
+  background-color: #beedfa;
+}
 
 .additions {
   display: -webkit-box;
@@ -383,13 +397,23 @@ ul a:hover, ul a:focus {
   display: flex;
   position: relative;
   background-color: #0F614E;
-  height: 700px;
+  height: 750px;
   margin-top: 0;
+}
+.additions a {
+  display: inline-block;
+  background-color: #0C1423;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+.additions a:hover, .additions a:focus {
+  background-color: #1a2a47;
 }
 
 .newAdditionsText {
   width: 50%;
-  margin-left: 600px;
+  margin-left: 650px;
 }
 
 .fishImgContainer img {
@@ -414,7 +438,7 @@ ul a:hover, ul a:focus {
   height: auto;
   -webkit-box-shadow: #86E0F9;
           box-shadow: #86E0F9;
-  top: 420px;
+  top: 450px;
   right: 0px;
   -webkit-box-shadow: -25px 25px #86E0F9;
           box-shadow: -25px 25px #86E0F9;
@@ -425,18 +449,102 @@ ul a:hover, ul a:focus {
   display: -ms-flexbox;
   display: flex;
   background-color: #0C1423;
+  height: 750px;
+}
+.moreInfo i {
+  background-color: #86E0F9;
+  color: #0C1423;
+  border-radius: 100%;
+  padding: 15px;
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.moreInfo .wrapper {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 350px 300px;
+  row-gap: 0px;
+  -webkit-column-gap: 10%;
+     -moz-column-gap: 10%;
+          column-gap: 10%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+.moreInfo p {
+  margin-left: 60px;
 }
 
 .whaleShark {
   background-image: url(../assets/banner.jpg);
-  height: 400px;
+  height: 500px;
   background-size: cover;
 }
 
 .profile {
   background-color: #0C1423;
+  height: 500px;
+}
+
+.fishProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.fishProfile img {
+  margin-top: 50px;
+  -webkit-box-shadow: 30px 30px #86E0F9;
+          box-shadow: 30px 30px #86E0F9;
+}
+.fishProfile .fishProfileText {
+  width: 60%;
+  text-align: left;
+  padding: 20px;
+  margin-top: 30px;
+}
+.fishProfile .fishProfileText a {
+  background-color: #86E0F9;
+  color: #0C1423;
+  padding: 10px;
+}
+.fishProfile .fishProfileText a:hover, .fishProfile .fishProfileText a:focus {
+  background-color: #beedfa;
 }
 
 .gallery {
   background-color: #0F614E;
+  height: 400px;
+}
+.gallery ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.gallery li {
+  width: calc(33.3333333333% - 30px);
+  margin: 20px;
+  padding: 10px;
+}
+.gallery img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #86E0F9;
+  color: #0C1423;
+  text-align: center;
 }
