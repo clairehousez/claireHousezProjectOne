@@ -1,26 +1,25 @@
-form {
+.sendEmail {
     background-color: $spruce;
     height: 500px;
     box-shadow: -30px 30px $blue;
-}
+    label {
+        font-family: "Lato", sans-serif;
+        font-size: 20px;
+    }
 
-label {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-}
+    input {
+        background-color: $spruce;
+        border: none;
+        border-bottom: 1px solid $blue;
+    }
 
-input {
-    background-color: $spruce;
-    border: none;
-    border-bottom: 1px solid $blue;
-}
-
-button {
-    background-color: $dark;
-    color: $text;
-    width: 60%;
-    padding: 10px;
-    border: none;
+    button {
+        background-color: $dark;
+        color: $text;
+        width: 60%;
+        padding: 10px;
+        border: none;
+    }
 }
 
 a {
