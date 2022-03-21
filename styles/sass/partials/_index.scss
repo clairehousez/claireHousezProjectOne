@@ -1,8 +1,12 @@
 header {
+    display: flex;
+}
+
+.headerBackground {
     background-image: url(../assets/header-image.jpg);
     background-size: cover;
     height: 700px;
-    display: flex;
+    width: 100%;
 }
 
 h1 {
@@ -17,7 +21,7 @@ h1 {
     position: relative;
     img {
         position: absolute;
-        top: 170px;
+        top: -450px;
         right: 0px;
         width: 750px;
         height: auto;

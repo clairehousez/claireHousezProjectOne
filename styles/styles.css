@@ -300,15 +300,6 @@ button {
   margin: 0 auto;
 }
 
-header {
-  background-image: url(../assets/header-image.jpg);
-  background-size: cover;
-  height: 700px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 h1 {
   font-size: 138px;
   line-height: 126px;
@@ -347,12 +338,16 @@ ul a:hover, ul a:focus {
 }
 
 header {
-  background-image: url(../assets/header-image.jpg);
-  background-size: cover;
-  height: 700px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.headerBackground {
+  background-image: url(../assets/header-image.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
 }
 
 h1 {
@@ -367,7 +362,7 @@ h1 {
 }
 .headerFish img {
   position: absolute;
-  top: 170px;
+  top: -450px;
   right: 0px;
   width: 750px;
   height: auto;
