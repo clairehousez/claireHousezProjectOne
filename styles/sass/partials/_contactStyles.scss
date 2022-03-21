@@ -7,9 +7,14 @@
 
 
 .sendEmail {
+    display: flex;
+    flex-direction: column;
     background-color: $spruce;
     height: 500px;
+    width: 800px;
     box-shadow: -30px 30px $blue;
+    padding: 50px;
+
     label {
         font-family: "Lato", sans-serif;
         font-size: 20px;
@@ -17,16 +22,35 @@
 
     input {
         background-color: $spruce;
+        color: $text;
         border: none;
         border-bottom: 1px solid $blue;
+        width: 48%;
+        padding: 10px 20px;
+    }
+
+    textarea {
+        background-color: $spruce;
+        color: $text;
+        border: 1px solid $blue;
+        width: 100%;
+        height: 250px;
+        padding: 20px;
+        margin: 30px 0;
+        resize: none;
     }
 
     button {
         background-color: $dark;
         color: $text;
-        width: 60%;
+        width: 100%;
         padding: 10px;
         border: none;
+        align-items: center;
+        &:hover,
+        &:focus {
+            background-color: $hoverDark;
+        }
     }
 }
 
@@ -43,17 +67,34 @@ aside {
     width: 30%;
 }
 
-.socialLinks {
-    color: $text;
-}
+
 
 .contact {
     position: relative;
     width: 60%;
+    height: 500px;
 }
 
 .getInTouch {
     position: absolute;
     top: -400px;
     left: 100px;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 60px;
+    h3 {
+        margin: 0;
+    }
+    p {
+        margin: 0px;
+    }
+}
+
+.socialLinks {
+    color: $text;
+    padding: 5px;
 }
