@@ -716,6 +716,7 @@ body {
   color: #fff;
   border: none;
   padding: 5px;
+  cursor: pointer;
 }
 .commentForm button:hover, .commentForm button:focus {
   background-color: #137c64;
@@ -774,6 +775,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 .sendEmail button:hover, .sendEmail button:focus {
   background-color: #1a2a47;
@@ -823,11 +825,18 @@ aside {
 }
 .socialContainer p {
   margin: 0px;
+  font-size: 16px;
 }
 
 .socialLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
   color: #fff;
-  padding: 5px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 850px) {
@@ -913,6 +922,99 @@ h4 {
   }
   .gallery ul {
     padding: 10px;
+  }
+
+  .asideImg {
+    position: relative;
+  }
+  .asideImg img {
+    width: 300px;
+    height: auto;
+  }
+
+  .asideText {
+    display: block;
+  }
+
+  .blogH2 {
+    position: absolute;
+    right: 0;
+    top: -250px;
+  }
+  .blogH2 img {
+    width: 400px;
+    height: auto;
+  }
+
+  .blogText {
+    width: 100%;
+  }
+  .blogText p {
+    font-size: 20px;
+  }
+
+  .divide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .getInTouch {
+    position: none;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .sendEmail {
+    -webkit-box-shadow: -10px 10px #86E0F9;
+            box-shadow: -10px 10px #86E0F9;
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .socialContainer {
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  .socialContainer h3 {
+    text-align: left;
+  }
+  .socialContainer p {
+    font-size: 20px;
+  }
+
+  .socialLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 @media (max-width: 400px) {
@@ -1022,6 +1124,183 @@ h4 {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
+  }
+
+  .blogHeaderBackground {
+    height: 400px;
+    background-size: cover;
+  }
+
+  .blogH2 img {
+    display: none;
+  }
+  .blogH2 h2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .blogWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .blogContent {
+    display: block;
+    text-align: center;
+    width: 80%;
+    padding-top: 300px;
+    margin: 45px;
+  }
+
+  .left {
+    width: 100%;
+    margin: 0;
+  }
+
+  .blog {
+    width: 100%;
+    margin: 0;
+    top: 0;
+  }
+
+  .blogText {
+    width: 100%;
+    border: none;
+    margin: 0;
+  }
+  .blogText h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .blogText p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .commentContainer {
+    width: 95%;
+  }
+
+  .commentOneText p {
+    font-size: 16px;
+  }
+
+  .commentTwoText p {
+    font-size: 16px;
+  }
+
+  .asideImg img {
+    display: none;
+  }
+
+  .asideText {
+    width: 100%;
+    display: block;
+    top: 0;
+    text-align: center;
+  }
+
+  .commentForm input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 16px;
+    width: 100%;
+    padding: 20px;
+  }
+  .commentForm textarea {
+    font-size: 16px;
+  }
+
+  .divide {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .aside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .contactPageBackground {
+    height: 400px;
+    background-size: cover;
+  }
+
+  .getInTouch {
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+  .getInTouch h2 {
+    font-size: 48px;
+    line-height: 48px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 80px;
+    padding-bottom: 20px;
+  }
+
+  .sendEmail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 400px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .sendEmail input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .sendEmail textarea {
+    width: 100%;
+  }
+
+  .socialContainer {
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    margin: 200px 100px;
+    width: 200px;
+    padding-bottom: 0px;
+  }
+  .socialContainer h3 {
+    text-align: center;
   }
 }
 footer {

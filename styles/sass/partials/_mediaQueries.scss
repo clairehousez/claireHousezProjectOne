@@ -76,6 +76,79 @@
         }
     }
 
+    .asideImg {
+        position: relative;
+        img {
+            width: 300px;
+            height: auto;
+        }
+    }
+
+    .asideText {
+        display: block;
+    }
+
+    .blogH2 {
+        position: absolute;
+        right: 0;
+        top: - 250px;
+        img {
+            width: 400px;
+            height: auto;
+        }
+    }
+
+    .blogText {
+        width: 100%;
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .divide {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .aside {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .getInTouch {
+        position: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .sendEmail {
+        box-shadow: -10px 10px $blue;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .socialContainer {
+        margin-top: 0px;
+        display: flex;
+        width: 100%;
+        h3 {
+            text-align: left;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .socialLinks {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -189,4 +262,166 @@
             width: 100%;
         }
     }
+
+    .blogHeaderBackground {
+        height: 400px;
+        background-size: cover;
+    }
+
+    .blogH2 {
+        img {
+            display: none;
+        }
+        h2 {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .blogWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .blogContent {
+        display: block;
+        text-align: center;
+        width: 80%;
+        padding-top: 300px;
+        margin: 45px;
+
+    }
+
+    .left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .blog {
+        width: 100%;
+        margin: 0;
+        top: 0;
+    }
+
+    .blogText {
+        width: 100%;
+        border: none;
+        margin: 0;
+        h3 {
+            font-size: 28px;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+
+    .commentContainer {
+        width: 95%;
+
+    }
+
+    .commentOneText {
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .commentTwoText {
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .asideImg {
+        img {
+            display: none;
+        }
+    }
+
+    .asideText {
+        width: 100%;
+        display: block;
+        top: 0;
+        text-align: center;
+    }
+
+    .commentForm {
+        input {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            width: 100%;
+            padding: 20px;
+        }
+        textarea {
+            font-size: 16px;
+        }
+
+    }
+
+    .divide {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .aside {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contactPageBackground {
+        height: 400px;
+        background-size: cover;
+    }
+
+    .getInTouch {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        h2 {
+            font-size: 48px;
+            line-height: 48px;
+            width: 100%;
+            text-align: center;
+            margin: 10px 80px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .sendEmail {
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        box-shadow: none;
+        input {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        textarea {
+            width: 100%;
+        }
+    }
+
+    .socialContainer {
+        display: block;
+        font-size: 16px;
+        text-align: center;
+        margin: 200px 100px;
+        width: 200px;
+        padding-bottom: 0px;
+        h3 {
+            text-align: center;
+        }
+
+    }
+
 }

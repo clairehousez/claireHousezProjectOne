@@ -146,6 +146,7 @@ body {
         color: $text;
         border: none;
         padding: 5px;
+        cursor: pointer;
         &:hover,
         &:focus {
             background-color: $hoverSpruce;
