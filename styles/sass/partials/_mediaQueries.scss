@@ -1,0 +1,192 @@
+@media (max-width: 850px) {
+    .wrapper {
+        width: 95%;
+    }
+
+    h2,
+    h3,
+    h4 {
+        text-align: center;
+        margin: 15px;
+    }
+
+    .aboutSection {
+        display: flex;
+        p {
+            text-align: center;
+        }
+    }
+
+    .headerFish {
+        img {
+            width: 50%;
+            height: auto;
+            position: absolute;
+            right: 0;
+        }
+    }
+
+    .fishImgContainer {
+        img {
+        width: 40%;
+        box-shadow: 10px 10px $blue;
+        }
+    }
+
+    .newAdditionsText{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+        a {
+            text-align: center;
+        }
+    }
+
+    .nemo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nemoContainer {
+        img {
+        width: 40%;
+        box-shadow: 10px 10px $blue;
+        }
+    }
+
+    .fishProfile {
+        img {
+            width: 40%;
+            height: auto;
+            box-shadow: 10px 10px $blue;
+        }
+        .fishProfileText {
+            text-align: center;
+        }
+    }
+
+    .gallery {
+        height: 300px;
+        ul {
+            padding: 10px;
+        }
+    }
+
+}
+
+@media (max-width: 400px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    nav {
+        ul {
+            display: block;
+            font-size: 28px;
+            background-color: $dark;
+        }
+    }
+
+    h1 {
+        font-size: 100px;
+        line-height: 100px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .headerBackground {
+        height: 500px;
+        background-size: cover;
+    }
+
+    .headerFish {
+        img {
+            display: none;
+        }
+    }
+
+    .aboutSection {
+        display: flex;
+        flex-direction: column;
+        a {
+            width: 30%;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .fishImgContainer {
+        img {
+            display: none;
+        }
+    }
+
+    .nemoContainer {
+        img {
+            display: none;
+        }
+    }
+
+    .additions {
+        .newAdditionsText{
+            display: block;
+            width: 100%;
+            padding: 10px;
+        }
+        .nemo {
+            display: block;
+            width: 100%;
+            padding: 10px;
+        }
+    }
+
+    .moreInfo {
+        .wrapper {
+            width: 95%;
+            display: grid;
+            grid-template-rows: 25% 25% 25% 25%;
+            grid-template-columns: 100%;
+            margin-bottom: 10px;
+            h4 {
+                font-size: 28px;
+                text-align: left;
+            }
+            i {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+                text-align: left;
+            }
+        }
+        
+    }
+
+    .whaleShark {
+            height: 200px;
+            background-size: cover;
+    }
+
+    .fishProfile {
+        img {
+            display: none;
+        }
+        .fishProfileText {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .gallery {
+        height: 500px;
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+    }
+}

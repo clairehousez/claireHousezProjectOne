@@ -830,6 +830,200 @@ aside {
   padding: 5px;
 }
 
+@media (max-width: 850px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  h2,
+h3,
+h4 {
+    text-align: center;
+    margin: 15px;
+  }
+
+  .aboutSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .aboutSection p {
+    text-align: center;
+  }
+
+  .headerFish img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 0;
+  }
+
+  .fishImgContainer img {
+    width: 40%;
+    -webkit-box-shadow: 10px 10px #86E0F9;
+            box-shadow: 10px 10px #86E0F9;
+  }
+
+  .newAdditionsText {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .newAdditionsText a {
+    text-align: center;
+  }
+
+  .nemo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .nemoContainer img {
+    width: 40%;
+    -webkit-box-shadow: 10px 10px #86E0F9;
+            box-shadow: 10px 10px #86E0F9;
+  }
+
+  .fishProfile img {
+    width: 40%;
+    height: auto;
+    -webkit-box-shadow: 10px 10px #86E0F9;
+            box-shadow: 10px 10px #86E0F9;
+  }
+  .fishProfile .fishProfileText {
+    text-align: center;
+  }
+
+  .gallery {
+    height: 300px;
+  }
+  .gallery ul {
+    padding: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  nav ul {
+    display: block;
+    font-size: 28px;
+    background-color: #0C1423;
+  }
+
+  h1 {
+    font-size: 100px;
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .headerBackground {
+    height: 500px;
+    background-size: cover;
+  }
+
+  .headerFish img {
+    display: none;
+  }
+
+  .aboutSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutSection a {
+    width: 30%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .fishImgContainer img {
+    display: none;
+  }
+
+  .nemoContainer img {
+    display: none;
+  }
+
+  .additions .newAdditionsText {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+  .additions .nemo {
+    display: block;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .moreInfo .wrapper {
+    width: 95%;
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 100%;
+    margin-bottom: 10px;
+  }
+  .moreInfo .wrapper h4 {
+    font-size: 28px;
+    text-align: left;
+  }
+  .moreInfo .wrapper i {
+    font-size: 18px;
+  }
+  .moreInfo .wrapper p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .whaleShark {
+    height: 200px;
+    background-size: cover;
+  }
+
+  .fishProfile img {
+    display: none;
+  }
+  .fishProfile .fishProfileText {
+    display: block;
+    width: 100%;
+  }
+
+  .gallery {
+    height: 500px;
+  }
+  .gallery ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
 footer {
   background-color: #86E0F9;
   color: #0C1423;
