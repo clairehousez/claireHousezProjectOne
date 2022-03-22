@@ -45,7 +45,7 @@ body {
 }
 
 .asideText{
-    width: 90%;
+    width: 95%;
     font-size: 16px;
     background-color: $spruce;
     padding: 10px;
@@ -130,4 +130,25 @@ body {
         padding: 10px 20px;
     }
 
+    textarea {
+        background-color: $dark;
+        color: $text;
+        border: 1px solid $blue;
+        width: 100%;
+        height: 150px;
+        padding: 20px;
+        margin: 30px 0;
+        resize: none;
+    }
+
+    button {
+        background-color: $spruce;
+        color: $text;
+        border: none;
+        padding: 5px;
+        &:hover,
+        &:focus {
+            background-color: $hoverSpruce;
+        }
+    }
 }
