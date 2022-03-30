@@ -900,6 +900,9 @@ h4 {
 
   .gallery {
     height: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .gallery ul {
     padding: 10px;
@@ -1289,6 +1292,7 @@ footer {
   color: #0C1423;
   text-align: center;
   margin-bottom: auto;
+  margin-top: auto;
 }
 
 .carousel {
@@ -1321,13 +1325,13 @@ footer {
 .previousImage {
   position: absolute;
   top: 50%;
-  left: 0;
+  left: 10%;
 }
 
 .nextImage {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 10%;
 }
 
 .carouselImage {
@@ -1341,4 +1345,5 @@ footer {
   transition: opacity 0.3s ease-in;
   height: 400px;
   width: auto;
+  padding: 10px;
 }
