@@ -176,19 +176,20 @@ h1 {
 .gallery {
     background-color: $spruce;
     height: 400px;
-    ul {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+//     ul {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//     }
     
-    li {
-        width: calc((100% / 3) - 30px);
-        margin: 20px;
-        padding: 10px;
-        }
+//     li {
+//         width: calc((100% / 3) - 30px);
+//         margin: 20px;
+//         padding: 10px;
+//         }
 
-    img {
-        max-width: 100%;
-    }
+//     img {
+//         max-width: 100%;
+//     }
+// 
 }

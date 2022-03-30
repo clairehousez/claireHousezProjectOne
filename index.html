@@ -122,22 +122,24 @@
 
         <section class="gallery">
             <div class="wrapper">
-                <ul>
-                    <li>
-                        <img src="assets/gallery-image-1.jpg" alt="A child looks at our salt-water exhibit">
-                    </li>
-                    <li>
-                        <img src="assets/gallery-image-2.jpg" alt="Patrons take photos of a whale shark">
-                    </li>
-                    <li>
-                        <img src="assets/gallery-image-3.jpg" alt="A variety of fish inside our salt-water exhibit">
-                    </li>
-                </ul>
+                <div class="carousel slides">
+                    
+                    <img class="carouselImage" src="assets/gallery-image-1.jpg" alt="A child looks at our salt-water exhibit">
+                    <img class="carouselImage" src="assets/gallery-image-2.jpg" alt="Patrons take photos of a whale shark">
+                    <img class="carouselImage" src="assets/gallery-image-3.jpg" alt="A variety of fish inside our salt-water exhibit">
+                    
+                    <div class="buttons">
+                        <button class="previousImage"><i class="fa-solid fa-arrow-left"></i></button>
+
+                        <button class="nextImage"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <p>Copyright © 2022 Juno College</p>
     </footer>
+    <script src="scripts.js"></script>
 </body>
 </html>
